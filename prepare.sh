@@ -1,4 +1,4 @@
-echo "Preparing...."
+echo "Preparing..."
 
 bun build ./inNode.js --compile --outfile=./builds/inNode --target node &&
 bun build ./inBun.ts --compile --outfile=./builds/inBun --target bun &&
